@@ -10,3 +10,16 @@ C:\personalRepositories\deskManagement\deskManagement\obj\Debug\deskManagement.f
 C:\personalRepositories\deskManagement\deskManagement\obj\Debug\deskManagement.contents.formConfig.resources
 C:\personalRepositories\deskManagement\deskManagement\bin\Debug\Newtonsoft.Json.dll
 C:\personalRepositories\deskManagement\deskManagement\bin\Debug\Newtonsoft.Json.xml
+C:\personalRepositories\git\deskManagement\deskManagement\bin\Debug\deskManagement.exe.config
+C:\personalRepositories\git\deskManagement\deskManagement\obj\Debug\deskManagement.exe
+C:\personalRepositories\git\deskManagement\deskManagement\obj\Debug\deskManagement.pdb
+C:\personalRepositories\git\deskManagement\deskManagement\bin\Debug\deskManagement.exe
+C:\personalRepositories\git\deskManagement\deskManagement\bin\Debug\deskManagement.pdb
+C:\personalRepositories\git\deskManagement\deskManagement\bin\Debug\Newtonsoft.Json.dll
+C:\personalRepositories\git\deskManagement\deskManagement\bin\Debug\Newtonsoft.Json.xml
+C:\personalRepositories\git\deskManagement\deskManagement\obj\Debug\deskManagement.csprojResolveAssemblyReference.cache
+C:\personalRepositories\git\deskManagement\deskManagement\obj\Debug\deskManagement.contents.formConfig.resources
+C:\personalRepositories\git\deskManagement\deskManagement\obj\Debug\deskManagement.contents.formUser.resources
+C:\personalRepositories\git\deskManagement\deskManagement\obj\Debug\deskManagement.formInitial.resources
+C:\personalRepositories\git\deskManagement\deskManagement\obj\Debug\deskManagement.Properties.Resources.resources
+C:\personalRepositories\git\deskManagement\deskManagement\obj\Debug\deskManagement.csproj.GenerateResource.Cache

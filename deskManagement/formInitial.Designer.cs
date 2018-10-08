@@ -31,9 +31,10 @@
             this.btnFechar = new System.Windows.Forms.PictureBox();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.panelLateral = new System.Windows.Forms.Panel();
-            this.panelContent = new System.Windows.Forms.Panel();
             this.lblTeste = new System.Windows.Forms.Label();
+            this.panelContent = new System.Windows.Forms.Panel();
             this.lblJson = new System.Windows.Forms.Label();
+            this.lblUsuario = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.btnFechar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
             this.panelLateral.SuspendLayout();
@@ -44,7 +45,7 @@
             this.btnFechar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnFechar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnFechar.Location = new System.Drawing.Point(873, 18);
-            this.btnFechar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnFechar.Margin = new System.Windows.Forms.Padding(4);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(32, 35);
             this.btnFechar.TabIndex = 0;
@@ -56,7 +57,7 @@
             this.btnMinimizar.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMinimizar.Location = new System.Drawing.Point(833, 18);
-            this.btnMinimizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMinimizar.Margin = new System.Windows.Forms.Padding(4);
             this.btnMinimizar.Name = "btnMinimizar";
             this.btnMinimizar.Size = new System.Drawing.Size(32, 35);
             this.btnMinimizar.TabIndex = 1;
@@ -67,24 +68,13 @@
             // 
             this.panelLateral.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.panelLateral.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panelLateral.Controls.Add(this.lblUsuario);
             this.panelLateral.Controls.Add(this.lblTeste);
             this.panelLateral.Location = new System.Drawing.Point(0, 0);
-            this.panelLateral.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelLateral.Margin = new System.Windows.Forms.Padding(4);
             this.panelLateral.Name = "panelLateral";
             this.panelLateral.Size = new System.Drawing.Size(120, 493);
             this.panelLateral.TabIndex = 2;
-            // 
-            // panelContent
-            // 
-            this.panelContent.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelContent.BackColor = System.Drawing.Color.Transparent;
-            this.panelContent.Location = new System.Drawing.Point(120, 60);
-            this.panelContent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.panelContent.Name = "panelContent";
-            this.panelContent.Size = new System.Drawing.Size(801, 436);
-            this.panelContent.TabIndex = 3;
             // 
             // lblTeste
             // 
@@ -101,6 +91,18 @@
             this.lblTeste.MouseEnter += new System.EventHandler(this.lblTeste_MouseEnter);
             this.lblTeste.MouseLeave += new System.EventHandler(this.lblTeste_MouseLeave);
             // 
+            // panelContent
+            // 
+            this.panelContent.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelContent.BackColor = System.Drawing.Color.Transparent;
+            this.panelContent.Location = new System.Drawing.Point(120, 60);
+            this.panelContent.Margin = new System.Windows.Forms.Padding(4);
+            this.panelContent.Name = "panelContent";
+            this.panelContent.Size = new System.Drawing.Size(801, 436);
+            this.panelContent.TabIndex = 3;
+            // 
             // lblJson
             // 
             this.lblJson.AutoSize = true;
@@ -110,6 +112,19 @@
             this.lblJson.TabIndex = 4;
             this.lblJson.Text = "consultar Json";
             this.lblJson.Click += new System.EventHandler(this.lblJson_Click);
+            // 
+            // lblUsuario
+            // 
+            this.lblUsuario.AutoSize = true;
+            this.lblUsuario.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblUsuario.Location = new System.Drawing.Point(28, 130);
+            this.lblUsuario.Name = "lblUsuario";
+            this.lblUsuario.Size = new System.Drawing.Size(59, 19);
+            this.lblUsuario.TabIndex = 1;
+            this.lblUsuario.Text = "Usuário";
+            this.lblUsuario.Click += new System.EventHandler(this.lblUsuario_Click);
+            this.lblUsuario.MouseEnter += new System.EventHandler(this.lblUsuario_MouseEnter);
+            this.lblUsuario.MouseLeave += new System.EventHandler(this.lblUsuario_MouseLeave);
             // 
             // formInitial
             // 
@@ -123,7 +138,7 @@
             this.Controls.Add(this.btnFechar);
             this.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "formInitial";
             this.Text = "formInitial";
             this.Load += new System.EventHandler(this.formInitial_Load);
@@ -144,5 +159,6 @@
         private System.Windows.Forms.Label lblTeste;
         private System.Windows.Forms.Panel panelContent;
         private System.Windows.Forms.Label lblJson;
+        private System.Windows.Forms.Label lblUsuario;
     }
 }

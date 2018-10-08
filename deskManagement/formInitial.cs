@@ -44,14 +44,22 @@ namespace deskManagement
             panelLateral.Height = this.Height;
         }
 
+        public void abrirMenu( Form menu )
+        {
+            panelContent.Controls.Clear();
+
+            if (menu != null)
+            {
+                menu.TopLevel = false;
+                menu.TopLevel = false;
+                panelContent.Controls.Add(menu);
+                menu.Show();
+            }
+        }
+
         private void lblTeste_Click(object sender, EventArgs e)
         {
-
-            contents.formConfig menu = new contents.formConfig();
-            menu.TopLevel = false;
-
-            panelContent.Controls.Add(menu);
-            menu.Show();
+            abrirMenu(new contents.formConfig());
         }
 
         public void alteraCor(Label sender, bool reset)
@@ -92,6 +100,21 @@ namespace deskManagement
         private void lblJson_Click(object sender, EventArgs e)
         {
             teste();
+        }
+
+        private void lblUsuario_Click(object sender, EventArgs e)
+        {
+            abrirMenu(new contents.formUser());
+        }
+
+        private void lblUsuario_MouseEnter(object sender, EventArgs e)
+        {
+            alteraCor(lblUsuario, false);
+        }
+
+        private void lblUsuario_MouseLeave(object sender, EventArgs e)
+        {
+            alteraCor(lblUsuario, true);
         }
     }
 }
