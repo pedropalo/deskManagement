@@ -1,0 +1,16 @@
+{
+  "chamados": [
+    {
+      "cor": "red",
+      "titulo": "caso telefonema",
+      "status": 1,
+      "conteudo": 'ligou reclamando'
+    },
+    {
+      "cor": "blue",
+      "titulo": "caso telefonica",
+      "status": 1,
+      "conteudo": 'teste'
+    }
+  ]
+}

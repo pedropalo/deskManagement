@@ -1,0 +1,12 @@
+C:\personalRepositories\deskManagement\deskManagement\bin\Debug\deskManagement.exe.config
+C:\personalRepositories\deskManagement\deskManagement\bin\Debug\deskManagement.exe
+C:\personalRepositories\deskManagement\deskManagement\bin\Debug\deskManagement.pdb
+C:\personalRepositories\deskManagement\deskManagement\obj\Debug\deskManagement.csprojResolveAssemblyReference.cache
+C:\personalRepositories\deskManagement\deskManagement\obj\Debug\deskManagement.Properties.Resources.resources
+C:\personalRepositories\deskManagement\deskManagement\obj\Debug\deskManagement.csproj.GenerateResource.Cache
+C:\personalRepositories\deskManagement\deskManagement\obj\Debug\deskManagement.exe
+C:\personalRepositories\deskManagement\deskManagement\obj\Debug\deskManagement.pdb
+C:\personalRepositories\deskManagement\deskManagement\obj\Debug\deskManagement.formInitial.resources
+C:\personalRepositories\deskManagement\deskManagement\obj\Debug\deskManagement.contents.formConfig.resources
+C:\personalRepositories\deskManagement\deskManagement\bin\Debug\Newtonsoft.Json.dll
+C:\personalRepositories\deskManagement\deskManagement\bin\Debug\Newtonsoft.Json.xml
