@@ -31,10 +31,10 @@
             this.btnFechar = new System.Windows.Forms.PictureBox();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.panelLateral = new System.Windows.Forms.Panel();
+            this.lblUsuario = new System.Windows.Forms.Label();
             this.lblTeste = new System.Windows.Forms.Label();
             this.panelContent = new System.Windows.Forms.Panel();
             this.lblJson = new System.Windows.Forms.Label();
-            this.lblUsuario = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.btnFechar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
             this.panelLateral.SuspendLayout();
@@ -76,6 +76,19 @@
             this.panelLateral.Size = new System.Drawing.Size(120, 493);
             this.panelLateral.TabIndex = 2;
             // 
+            // lblUsuario
+            // 
+            this.lblUsuario.AutoSize = true;
+            this.lblUsuario.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblUsuario.Location = new System.Drawing.Point(28, 130);
+            this.lblUsuario.Name = "lblUsuario";
+            this.lblUsuario.Size = new System.Drawing.Size(59, 19);
+            this.lblUsuario.TabIndex = 1;
+            this.lblUsuario.Text = "Usuário";
+            this.lblUsuario.Click += new System.EventHandler(this.lblUsuario_Click);
+            this.lblUsuario.MouseEnter += new System.EventHandler(this.lblUsuario_MouseEnter);
+            this.lblUsuario.MouseLeave += new System.EventHandler(this.lblUsuario_MouseLeave);
+            // 
             // lblTeste
             // 
             this.lblTeste.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
@@ -112,19 +125,6 @@
             this.lblJson.TabIndex = 4;
             this.lblJson.Text = "consultar Json";
             this.lblJson.Click += new System.EventHandler(this.lblJson_Click);
-            // 
-            // lblUsuario
-            // 
-            this.lblUsuario.AutoSize = true;
-            this.lblUsuario.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblUsuario.Location = new System.Drawing.Point(28, 130);
-            this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(59, 19);
-            this.lblUsuario.TabIndex = 1;
-            this.lblUsuario.Text = "Usuário";
-            this.lblUsuario.Click += new System.EventHandler(this.lblUsuario_Click);
-            this.lblUsuario.MouseEnter += new System.EventHandler(this.lblUsuario_MouseEnter);
-            this.lblUsuario.MouseLeave += new System.EventHandler(this.lblUsuario_MouseLeave);
             // 
             // formInitial
             // 

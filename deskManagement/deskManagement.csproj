@@ -62,6 +62,12 @@
     <Compile Include="contents\formUser.Designer.cs">
       <DependentUpon>formUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="controls\taskPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controls\taskPanel.Designer.cs">
+      <DependentUpon>taskPanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="formInitial.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +82,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="contents\formUser.resx">
       <DependentUpon>formUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\taskPanel.resx">
+      <DependentUpon>taskPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formInitial.resx">
       <DependentUpon>formInitial.cs</DependentUpon>
